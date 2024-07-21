@@ -1,0 +1,1252 @@
+.Container {
+    padding: 10px 30px;
+    overflow: hidden;
+    /* Barcha scrollni yo'qotadi */
+}
+
+.Container {
+    max-width: 100vw;
+    /* Sahifaning to'liq kengligida qoladi */
+    overflow-x: hidden;
+    /* Gorizontal scrollni yo'qotadi */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Gorizontal scrollni yo'qotadi */
+}
+
+.text_img {
+    max-width: 100vw;
+    /* Sahifaning to'liq kengligida qoladi */
+    max-height: 100vh;
+    /* Sahifaning to'liq balandligida qoladi */
+    overflow: hidden;
+    /* Scrollni yo'qotadi */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.text_img,
+.Avfzalliklar,
+.Service,
+.katta_img,
+.katta,
+.faq,
+.malumot,
+.footer {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 330px) {
+    .Container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+
+
+/* ====================== header ==================== */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Union {
+    display: flex;
+    width: 40%;
+}
+
+.Union img {
+    width: 3%;
+    height: 18px;
+
+}
+
+.Union h6 {
+    width: 70%;
+    padding: 0px 0px 0px 8px;
+    font-size: 18px;
+}
+
+.ull {
+    display: flex;
+    width: 28%;
+}
+
+.ull ul li {
+    list-style: none;
+    padding: 0px 10px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.aa {
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 10px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.ull ul {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.but {
+    width: 9.7%;
+    align-items: end;
+}
+
+.but button {
+
+    padding: 8px 50px;
+    background: #3360FF;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 330px) {
+    .header {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .Union {
+        display: flex;
+        width: 50%;
+    }
+
+    .Union img {
+        width: 12%;
+        height: 18px;
+
+    }
+
+    .ull {
+        display: none;
+
+    }
+
+    .but {
+        display: none;
+    }
+}
+
+/* =======================text_img============================ */
+
+.text_img {
+    width: 100%;
+    display: flex;
+    padding-top: 120px;
+
+}
+
+.text {
+    width: 50%;
+
+    padding: 0px 80px 0px 0px;
+}
+
+.text h1 {
+    color: #3375FF;
+    font-size: 110px;
+}
+
+.text p {
+    width: 100%;
+    padding: 20px 260px 0px 0px;
+    font-size: 20px;
+    color: #666666;
+}
+
+.dumaloq1 {
+    position: absolute;
+    left: 420px;
+    bottom: 280px;
+}
+
+.dumaloq2 {
+    position: absolute;
+    left: 430px;
+    bottom: 190px;
+}
+
+.dizinfeksia {
+    position: absolute;
+    left: 485px;
+    bottom: 125px;
+}
+
+
+
+.but1 {
+    padding: 145px 0px 0px 0px;
+    display: flex;
+    width: 10%;
+}
+
+.but3 button {
+    padding: 15px 60px;
+    font-size: 16px;
+    background: #3360FF;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.strelka {
+    padding: 2px 0px 0px 5px;
+}
+
+.imgg {
+    width: 50%;
+    padding: 0px 0px 0px 34px;
+}
+
+@media only screen and (max-width: 330px) {
+    .text_img {
+        width: 100%;
+        background-image: url(./rasm/rasm1.png);
+        background-repeat: round;
+        height: 200px;
+        padding: 50px 0px;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        padding: 40px 0px 10px 0px;
+    }
+
+    .text h1 {
+        width: 100%;
+
+        color: #F3F6F6;
+        font-size: 20px;
+    }
+
+    .text p {
+        text-align: center;
+        width: 100%;
+        padding: 20px 10px 20px 10px;
+        font-size: 15px;
+        color: #F3F6F6;
+    }
+
+}
+
+
+
+
+
+/* ====================Avfzalliklar==================== */
+.Avfzalliklar {
+    padding: 100px 30px;
+
+}
+
+hr {
+    padding: 0px 10px 0px 0px;
+}
+
+.Avfzalliklar h1 {
+    font-size: 38px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.text2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tez {
+    padding: 10px;
+}
+
+.tez img {
+    padding: 10px 0px;
+}
+
+.tez h3 {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.tez p {
+    width: 98%;
+    padding: 0px 120px 0px 0px;
+}
+
+@media only screen and (max-width: 330px) {
+    .Avfzalliklar {
+        padding: 50px 10px;
+    }
+
+    .Avfzalliklar h1 {
+        font-size: 25px;
+        padding: 10px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+
+    .tez {
+        border-radius: 10px;
+        border: 1px solid #676D83;
+    }
+
+    .tez h3 {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+
+    .tez img {
+        width: 20%;
+        padding: 0px 0px;
+    }
+
+    .tez p {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+    }
+
+}
+
+
+/* ====================katta_img ============ */
+.katta_img {
+    width: 100%;
+    background-image: url(./rasm/rasm2.png);
+    background-repeat: round;
+    height: 500px;
+}
+
+
+.text3 {
+    width: 100%;
+    padding: 30px 70px 0px 750px;
+    color: white;
+}
+
+.text3 h3 {
+    font-size: 55px;
+    padding: 10px 50px 50px 0px;
+}
+
+.text3 p {
+    font-size: 20px;
+    padding: 0px 150px 0px 0px;
+}
+
+.but2 {
+    padding: 80px 0px 30px 0px;
+}
+
+.but2 button {
+
+    padding: 15px 60px;
+    font-size: 16px;
+    background: #3360FF;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+
+@media only screen and (max-width: 330px) {
+    .imgg {
+        display: none;
+    }
+
+    .katta_img {
+        width: 100%;
+        background-image: url(./rasm/rasm2.png);
+        background-repeat: round;
+        height: 200px;
+        align-items: center;
+    }
+
+
+    .text3 {
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+        color: white;
+
+    }
+
+    .text3 h3 {
+
+        text-align: center;
+
+        font-size: 17px;
+        padding: 5px 30px 5px 30px;
+    }
+
+    .text3 p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0px 20px 8px 20px;
+    }
+
+    .but2 {
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .but2 button {
+
+        padding: 8px 15px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+
+}
+
+
+
+
+/* ==============service ============= */
+.Service {
+    padding: 100px 20px;
+
+}
+
+.Service h1 {
+    font-size: 48px;
+    padding: 10px 0px;
+}
+
+.Service p {
+    width: 20%;
+    padding: 10px 0px 20px 0px;
+    color: #666666;
+
+}
+
+.katta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 100px 0px;
+}
+
+/* ==================bosh ============ */
+.bosh {
+    background: #F3F6F6;
+    padding: 20px 30px;
+    width: 33%;
+    height: 450px;
+}
+
+.h3 {
+    font-size: 28px;
+    padding: 0px 50px 10px 0px;
+    width: 80%;
+}
+
+.naz {
+    font-size: 28px;
+    padding: 10px 0px 10px 0px;
+    color: #056AC7;
+
+}
+
+.dars {
+    padding: 10px 0px 10px 0px;
+    color: #056AC7;
+}
+
+.img1 {
+    padding: 160px 0px 0px 320px;
+}
+
+
+@media only screen and (max-width: 330px) {
+    .Service {
+        padding: 30px 0px;
+        text-align: center;
+    }
+
+    .Service h1 {
+        font-size: 28px;
+        padding: 10px 0px;
+    }
+
+    .Service p {
+        text-align: center;
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        color: #666666;
+
+    }
+
+    .katta {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 330px) {
+
+    /* ==================bosh ============ */
+    .bosh {
+        background: #F3F6F6;
+        padding: 10px 30px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .h3 {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .naz {
+        text-align: center;
+        font-size: 22px;
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+
+    }
+
+    .dars {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 0px 5px 0px;
+        color: #056AC7;
+    }
+
+    .img1 {
+        padding: 10px 0px 0px 60px;
+        align-items: center;
+    }
+
+    .img1 img {
+
+        width: 40%;
+    }
+
+}
+
+
+
+
+
+/* ================orta ============= */
+.orta {
+    background: #F3F6F6;
+    padding: 20px 30px;
+    width: 33%;
+    height: 450px;
+}
+
+.h3_1 {
+    font-size: 28px;
+    padding: 0px 50px 10px 0px;
+    width: 80%;
+}
+
+.nazariy {
+    text-align: center;
+    font-size: 22px;
+    padding: 10px 0px 10px 0px;
+    color: #056AC7;
+
+}
+
+.dars1 {
+    padding: 20px 0px 10px 0px;
+    color: #00A9B3;
+}
+
+.img2 {
+    padding: 163px 0px 0px 320px;
+}
+
+
+@media only screen and (max-width: 330px) {
+    .orta {
+        padding: 10px 30px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .h3_1 {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .nazariy {
+        text-align: center;
+        font-size: 22px;
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+
+    }
+
+    .dars1 {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 0px 5px 0px;
+        color: #056AC7;
+    }
+
+    .img2 {
+        padding: 10px 0px 0px 60px;
+    }
+
+    .img2 img {
+        width: 40%;
+    }
+
+}
+
+/* ===========oxiri ============== */
+
+.yuqori {
+    background: #F3F6F6;
+    padding: 20px 30px;
+    width: 33%;
+    height: 450px;
+}
+
+.h3_2 {
+    font-size: 28px;
+    padding: 0px 50px 10px 0px;
+    width: 80%;
+}
+
+.nazar {
+    font-size: 28px;
+    color: #009AA3;
+    padding: 40px 0px 0px 0px;
+}
+
+
+
+.dars2 {
+    padding: 20px 0px 10px 0px;
+    color: #00A9B3;
+}
+
+.img3 {
+    padding: 163px 0px 0px 320px;
+}
+
+
+@media only screen and (max-width: 330px) {
+    .yuqori {
+        background: #F3F6F6;
+        padding: 10px 30px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .h3_2 {
+        text-align: center;
+        font-size: 18px;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .nazar {
+        text-align: center;
+        font-size: 22px;
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+    }
+
+
+
+    .dars2 {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 0px 5px 0px;
+        color: #056AC7;
+    }
+
+    .img3 {
+        padding: 10px 0px 0px 60px;
+    }
+
+    .img3 img {
+        width: 40%;
+    }
+}
+
+/* ===========fon rasm ========= */
+
+.katta_fon {
+
+    width: 100%;
+    background-image: url(./rasm/fon.png);
+    background-repeat: round;
+    height: 550px;
+
+    display: flex;
+
+}
+
+.rasm3 {
+    width: 50%;
+    padding: 20px 20px 0px 20px;
+}
+
+.text4 {
+    width: 50%;
+}
+
+.togri {
+    padding: 20px 0px 10px 0px;
+}
+
+.text5 {
+    color: white;
+}
+
+.text5_h2 {
+    font-size: 20px;
+    padding: 30px 300px 100px 0px;
+}
+
+
+.btn3 {
+    padding: 50px 0px 30px 0px;
+}
+
+.btn3 button {
+
+    padding: 15px 60px;
+    font-size: 16px;
+    background: #3360FF;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+@media only screen and (max-width: 330px) {
+    .katta_fon {
+
+        width: 100%;
+        background-image: none;
+
+        display: flex;
+        flex-direction: column;
+        height: 480px;
+
+    }
+
+    .rasm3 {
+
+        width: 100%;
+        padding: 10px 0px 0px 0px;
+
+    }
+
+    .rasm3 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text4 {
+        width: 100%;
+
+    }
+
+    .togri {
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .text5 {
+        text-align: center;
+        padding: 10px 0px;
+        color: #666666;
+    }
+
+    .text5_h2 {
+        font-size: 10px;
+        padding: 0px 0px 0px 0px;
+    }
+
+
+    .btn3 {
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .btn3 button {
+
+        padding: 10px 30px;
+        font-size: 15px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+}
+
+/* ============ faq ============== */
+
+.faq {
+    width: 100%;
+    padding: 100px 20px;
+}
+
+
+.faq1 {
+    width: 100%;
+    display: flex;
+
+}
+
+.faq2 {
+    padding: 20px 0px;
+    width: 30%;
+    color: #020C31;
+    font-size: 28px;
+}
+
+.kursdan {
+    width: 70%;
+}
+
+.kursdan1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.h4 {
+    font-size: 25px;
+    color: #676D83;
+}
+
+.kursdan3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.topaman {
+    color: #020C31;
+
+    font-size: 25px;
+}
+
+.kursdan2 p {
+    padding: 10px 500px 10px 0px;
+    color: #676D83;
+
+}
+
+@media only screen and (max-width: 330px) {
+    .faq {
+        width: 100%;
+        padding: 0px 0px 10px 0px;
+    }
+
+
+    .faq1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .faq2 {
+        padding: 20px 0px;
+        width: 100%;
+        color: #020C31;
+        font-size: 18px;
+    }
+
+    .kursdan {
+        width: 100%;
+    }
+
+    .kursdan1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px;
+        align-items: center;
+    }
+
+    .kursdan1 img {
+        width: 20%;
+    }
+
+    .h4 {
+        font-size: 15px;
+        color: #676D83;
+    }
+
+    .kursdan3 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        text-align: center;
+    }
+
+    .kursdan3 img {
+        width: 20%;
+
+    }
+
+    .topaman {
+        color: #020C31;
+
+        font-size: 18px;
+    }
+
+    .kursdan2 p {
+        padding: 10px 0px 10px 0px;
+        font-size: 14px;
+        color: #676D83;
+
+    }
+}
+
+/*============ malumot ==========*/
+
+.malumot {
+    width: 100%;
+    background-image: url(./rasm/fon.png);
+    background-repeat: round;
+    height: 457px;
+
+}
+
+.malum {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.malum1 {
+    width: 40%;
+    height: 415px;
+    padding: 30px;
+    background-color: #F3F6F6;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.qol {
+    font-size: 45px;
+    padding: 0px 200px 0px 0px;
+    color: var(--Text-1, #242825);
+
+}
+
+
+.ism {
+    padding: 20px;
+    border: none;
+    font-size: 16px;
+
+}
+
+.tel {
+    padding: 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.yozilish1 {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+.yozilish {
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    background-color: var(--Text-1, #242825);
+    color: #FFFFFF;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.bizga {
+    width: 40%;
+    padding: 40px 0px 0px 150px;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.rasm5 {
+    position: absolute;
+    left: 980px;
+}
+
+@media only screen and (max-width: 330px) {
+    .malumot {
+        width: 100%;
+        background-image: none;
+        background-repeat: round;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 0px 0px;
+
+    }
+
+    .malum {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+        height: 0px;
+
+
+    }
+
+    .malum1 {
+        width: 100%;
+        height: 250px;
+        padding: 0px 0px 0px 0px;
+        border: 2px solid #666666;
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .qol {
+        font-size: 15px;
+        padding: 10px 0px 0px 0px;
+        color: var(--Text-1, #242825);
+        text-align: center;
+    }
+
+
+    .ism {
+
+        padding: 10px;
+        border: none;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .tel {
+        width: 80%;
+        padding: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+    .yozilish1 {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .yozilish {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        background-color: var(--Text-1, #242825);
+        color: #FFFFFF;
+        font-size: 14px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .bizga {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+        font-size: 20px;
+        color: #1b0606;
+
+    }
+
+    .rasm5 {
+        background-image: none;
+    }
+
+}
+
+/* ========footer======= */
+.footer {
+    display: flex;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.diz {
+    width: 30%;
+    padding: 14px 30px;
+}
+
+.Union1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.Union1 img {
+    width: 5%;
+    height: 18px;
+
+}
+
+.Union1 h6 {
+    width: 70%;
+    padding: 0px 0px 0px 8px;
+    font-size: 25px;
+}
+
+.joylashuv {
+    width: 70%;
+}
+
+.tosh {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 10px 0px 20px 0px;
+}
+
+.tarmoqlar {
+    display: flex;
+    gap: 50px;
+    padding: 40px 0px 20px 0px;
+}
+
+.fa {
+    display: flex;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 10px;
+    color: var(--Text-1, #242825);
+    font-size: 18px;
+}
+
+.qora {
+    padding: 0px 0px 0px 20px;
+}
+
+
+@media only screen and (max-width: 330px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 250px 0px;
+    }
+
+    .diz {
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .Union1 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 0px 0px
+    }
+
+
+
+
+    .Union1 img {
+        width: 8%;
+        height: 18px;
+
+    }
+
+    .Union1 h6 {
+        width: 70%;
+        padding: 0px 0px 0px 8px;
+        font-size: 20px;
+    }
+
+    .joylashuv {
+        width: 100%;
+    }
+
+    .tosh {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        padding: 10px 0px 10px 0px;
+    }
+
+    .tarmoqlar {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 40px 0px 20px 0px;
+    }
+
+    .fa {
+        display: flex;
+        padding: 10px 80px;
+        border: none;
+        border-radius: 10px;
+        color: var(--Text-1, #242825);
+        font-size: 18px;
+    }
+
+    .qora {
+        padding: 0px 0px 0px 20px;
+    }
+
+
+}
