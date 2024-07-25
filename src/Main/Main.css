@@ -53,6 +53,13 @@ body {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .Container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 
 
 
@@ -63,6 +70,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
 }
 
 .Union {
@@ -120,6 +128,170 @@ body {
     border-radius: 15px;
     border: none;
     color: white;
+}
+
+@media only screen and (max-width:1100px) {
+    .header {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .Union {
+        display: flex;
+        width: 40%;
+    }
+
+    .Union img {
+        width: 5%;
+        height: 18px;
+
+    }
+
+    .Union h6 {
+        width: 70%;
+        padding: 0px 0px 0px 8px;
+        font-size: 17px;
+    }
+
+    .ull {
+        display: flex;
+        width: 20%;
+    }
+
+    .ull ul li {
+        list-style: none;
+        padding: 0px 10px;
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .aa {
+        text-decoration: none;
+        list-style: none;
+        padding: 0px 10px;
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .ull ul {
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .but {
+        width: 11%;
+        align-items: end;
+    }
+
+    .but button {
+
+        padding: 8px 40px;
+        background: #3360FF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+    }
+
+
+}
+
+@media only screen and (max-width: 925px) {
+    .header {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .Union {
+        display: flex;
+        width: 40%;
+    }
+
+    .Union img {
+        width: 6%;
+        height: 18px;
+
+    }
+
+    .Union h6 {
+        width: 70%;
+        padding: 0px 0px 0px 8px;
+        font-size: 17px;
+    }
+
+    .ull {
+        display: flex;
+        width: 40%;
+    }
+
+    .ull ul li {
+        list-style: none;
+        padding: 0px 10px;
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .aa {
+        text-decoration: none;
+        list-style: none;
+        padding: 0px 10px;
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .ull ul {
+        display: flex;
+
+        justify-content: space-between;
+    }
+
+    .but {
+        width: 14%;
+        align-items: end;
+    }
+
+    .but button {
+
+        padding: 8px 40px;
+        background: #3360FF;
+        border-radius: 15px;
+        border: none;
+        color: white;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .header {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .Union {
+        display: flex;
+        width: 50%;
+    }
+
+    .Union img {
+        width: 7%;
+        height: 18px;
+
+    }
+
+    .ull {
+        display: none;
+
+    }
+
+    .but {
+        display: none;
+    }
+
 }
 
 
@@ -221,6 +393,512 @@ body {
     padding: 0px 0px 0px 34px;
 }
 
+@media only screen and (max-width:1100px) {
+
+    .dumaloq1 {
+        position: absolute;
+        left: 240px;
+        bottom: 300px;
+        width: 5%;
+    }
+
+    .dumaloq2 {
+        position: absolute;
+        left: 250px;
+        bottom: 275px;
+        width: 7%;
+    }
+
+    .dizinfeksia {
+        position: absolute;
+        left: 275px;
+        bottom: 255px;
+        width: 10%;
+    }
+
+
+
+    .text h1 {
+
+        color: #3375FF;
+        font-size: 50px;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 20px 220px 0px 0px;
+        font-size: 17px;
+        color: #666666;
+    }
+
+    .but1 {
+        padding: 110px 0px 0px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .but3 button {
+        padding: 10px 40px;
+        font-size: 14px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+    .strelka {
+        width: 100%;
+        padding: 2px 0px 0px 5px;
+    }
+
+    .strelka img {
+        width: 30%;
+    }
+
+    .imgg {
+        width: 70%;
+
+        padding: 0px 0px 0px 10px;
+    }
+
+    .imgg img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:925px) {
+    .text_img {
+        width: 100%;
+        display: flex;
+        padding-top: 120px;
+
+    }
+
+    .text {
+
+        width: 50%;
+
+        padding: 0px 80px 0px 0px;
+    }
+
+    .text h1 {
+
+        color: #3375FF;
+        font-size: 40px;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 20px 20px 0px 0px;
+        font-size: 15px;
+        color: #666666;
+    }
+
+    .dumaloq1 {
+        position: absolute;
+        left: 250px;
+        bottom: 300px;
+        width: 5%;
+    }
+
+    .dumaloq2 {
+        position: absolute;
+        left: 250px;
+        bottom: 275px;
+        width: 7%;
+    }
+
+    .dizinfeksia {
+        position: absolute;
+        left: 265px;
+        bottom: 255px;
+        width: 10%;
+    }
+
+
+
+    .but1 {
+        padding: 120px 0px 0px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .but3 button {
+        padding: 10px 40px;
+        font-size: 14px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+    .strelka {
+        width: 100%;
+        padding: 2px 0px 0px 5px;
+    }
+
+    .strelka img {
+        width: 50%;
+    }
+
+
+    .imgg {
+        width: 70%;
+
+        padding: 0px 0px 0px 10px;
+    }
+
+    .imgg img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 782px) {
+
+
+    .text {
+
+        width: 50%;
+
+        padding: 0px 80px 0px 0px;
+    }
+
+    .text h1 {
+
+        color: #3375FF;
+        font-size: 40px;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 20px 20px 0px 0px;
+        font-size: 15px;
+        color: #666666;
+    }
+
+    .dumaloq1 {
+        position: absolute;
+        left: 220px;
+        bottom: 240px;
+        width: 4%;
+    }
+
+    .dumaloq2 {
+        position: absolute;
+        left: 230px;
+        bottom: 225px;
+        width: 5%;
+    }
+
+    .dizinfeksia {
+        position: absolute;
+        left: 245px;
+        bottom: 215px;
+        width: 8%;
+    }
+
+
+
+    .but1 {
+        padding: 90px 0px 0px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .but3 button {
+        padding: 10px 40px;
+        font-size: 14px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+    .strelka {
+        width: 100%;
+        padding: 2px 0px 0px 5px;
+    }
+
+    .strelka img {
+        width: 80%;
+    }
+
+
+    .imgg {
+        width: 70%;
+
+        padding: 0px 0px 0px 10px;
+    }
+
+    .imgg img {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .text_img {
+        width: 100%;
+        display: flex;
+        padding-top: 50px;
+        height: 300px;
+    }
+
+    .text {
+        width: 50%;
+
+        padding: 0px 20px 0px 0px;
+
+    }
+
+    .text h1 {
+        color: #3375FF;
+        font-size: 28px;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 20px 60px 20px 0px;
+        font-size: 12px;
+        color: #666666;
+    }
+
+    .dumaloq1 {
+        position: none;
+        left: 210px;
+        bottom: 400px;
+        width: 5%;
+    }
+
+    .dumaloq2 {
+        position: absolute;
+        left: 220px;
+        bottom: 385px;
+        width: 7%;
+    }
+
+    .dizinfeksia {
+        position: absolute;
+        left: 230px;
+        bottom: 360px;
+        width: 12%;
+    }
+
+    .strelka {
+        width: 100%;
+        padding: 5px 0px 0px 10px;
+
+
+    }
+
+    .strelka img {
+        width: 40%;
+    }
+
+    .but1 {
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .but3 button {
+        padding: 10px 30px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+    .imgg {
+        width: 50%;
+        padding: 0px 0px 0px 34px;
+    }
+
+    .imgg img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:552px) {
+    .text_img {
+        width: 100%;
+        display: flex;
+        padding-top: 50px;
+        height: 280px;
+    }
+
+    .text {
+        width: 50%;
+
+        padding: 0px 10px 0px 0px;
+
+    }
+
+    .text h1 {
+        color: #3375FF;
+        font-size: 25px;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 20px 30px 10px 0px;
+        font-size: 12px;
+        color: #666666;
+    }
+
+    .dumaloq1 {
+        position: none;
+        left: 150px;
+        bottom: 400px;
+        width: 5%;
+    }
+
+    .dumaloq2 {
+        position: absolute;
+        left: 155px;
+        bottom: 385px;
+        width: 7%;
+    }
+
+    .dizinfeksia {
+        position: absolute;
+        left: 160px;
+        bottom: 360px;
+        width: 12%;
+    }
+
+    .strelka {
+        width: 100%;
+        padding: 5px 0px 0px 10px;
+
+
+    }
+
+    .strelka img {
+        width: 50%;
+    }
+
+    .but1 {
+        padding: 10px 0px 0px 0px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .but3 button {
+        padding: 10px 30px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+
+
+    .imgg {
+        width: 60%;
+        padding: 0px 0px 0px 34px;
+    }
+
+    .imgg img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 462px) {
+    .text_img {
+        width: 100%;
+        display: flex;
+        padding-top: 50px;
+        height: 250px;
+    }
+
+    .text {
+        width: 50%;
+
+        padding: 0px 20px 0px 0px;
+
+    }
+
+    .text h1 {
+        color: #3375FF;
+        font-size: 28px;
+    }
+
+    .text p {
+        width: 100%;
+        padding: 10px 30px 0px 0px;
+        font-size: 10px;
+        color: #666666;
+    }
+
+    .dumaloq1 {
+        position: none;
+        left: 130px;
+        bottom: 400px;
+        width: 5%;
+    }
+
+    .dumaloq2 {
+        position: absolute;
+        left: 135px;
+        bottom: 390px;
+        width: 7%;
+    }
+
+    .dizinfeksia {
+        position: absolute;
+        left: 140px;
+        bottom: 370px;
+        width: 12%;
+    }
+
+    .strelka {
+        width: 100%;
+        padding: 5px 0px 0px 10px;
+
+
+    }
+
+    .strelka img {
+        width: 50%;
+    }
+
+    .but1 {
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .but3 button {
+        padding: 7px 15px;
+        font-size: 8px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+
+
+    .imgg {
+        width: 100%;
+        padding: 0px 0px 0px 34px;
+    }
+
+    .imgg img {
+        width: 100%;
+    }
+}
+
+
 @media only screen and (max-width: 330px) {
     .text_img {
         width: 100%;
@@ -296,6 +974,44 @@ hr {
     padding: 0px 120px 0px 0px;
 }
 
+@media only screen and (max-width: 725px) {
+    .Avfzalliklar {
+        padding: 20px 10px;
+    }
+
+    .Avfzalliklar h1 {
+        font-size: 25px;
+        padding: 10px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tez h3 {
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+
+    .tez p {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Avfzalliklar h1 {
+        font-size: 20px;
+        padding: 10px 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tez img {
+        width: 50%;
+        padding: 0px 0px;
+    }
+}
+
 @media only screen and (max-width: 330px) {
     .Avfzalliklar {
         padding: 50px 10px;
@@ -356,13 +1072,13 @@ hr {
 }
 
 .text3 h3 {
-    font-size: 55px;
+    font-size: 40px;
     padding: 10px 50px 50px 0px;
 }
 
 .text3 p {
     font-size: 20px;
-    padding: 0px 150px 0px 0px;
+    padding: 0px 50px 0px 0px;
 }
 
 .but2 {
@@ -379,11 +1095,187 @@ hr {
     color: white;
 }
 
+@media only screen and (max-width:1224px) {
+
+    .katta_img {
+        width: 100%;
+        background-image: url(./rasm/rasm2.png);
+        background-repeat: round;
+        height: 500px;
+    }
+
+    .text3 {
+        width: 100%;
+        padding: 10px 70px 0px 550px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .text3 h3 {
+
+        font-size: 40px;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .text3 p {
+        font-size: 28px;
+
+        padding: 20px 20px 10px 10px;
+    }
+
+    .but2 {
+        padding: 20px 0px 10px 10px;
+
+    }
+
+    .but2 button {
+
+        padding: 15px 35px;
+        font-size: 20px;
+        background: #3360FF;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+    .katta_img {
+        width: 100%;
+        background-image: url(./rasm/rasm2.png);
+        background-repeat: round;
+        height: 500px;
+    }
+
+    .text3 {
+        width: 100%;
+        padding: 10px 70px 0px 450px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .text3 h3 {
+
+        font-size: 30px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .text3 p {
+        font-size: 25px;
+
+        padding: 20px 20px 10px 10px;
+    }
+
+    .but2 {
+        padding: 10px 0px 10px 10px;
+
+    }
+
+    .but2 button {
+
+        padding: 15px 35px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .katta_img {
+        width: 100%;
+        background-image: url(./rasm/rasm2.png);
+        background-repeat: round;
+        height: 300px;
+    }
+
+    .text3 {
+        width: 100%;
+        padding: 10px 70px 0px 70px;
+        font-size: 40px;
+        color: white;
+    }
+
+    .text3 h3 {
+
+        text-align: center;
+
+        font-size: 30px;
+        padding: 10px 10px 5px 10px;
+    }
+
+    .text3 p {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .but2 {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .but2 button {
+
+        padding: 8px 15px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .katta_img {
+        width: 100%;
+        background-image: url(./rasm/rasm2.png);
+        background-repeat: round;
+        height: 300px;
+    }
+
+    .text3 {
+        width: 100%;
+        padding: 0;
+        font-size: 40px;
+        color: white;
+    }
+
+    .text3 h3 {
+
+        text-align: center;
+
+        font-size: 30px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .text3 p {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 20px 8px 20px;
+    }
+
+    .but2 {
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+    }
+
+    .but2 button {
+
+        padding: 8px 15px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+}
+
 
 @media only screen and (max-width: 330px) {
-    .imgg {
-        display: none;
-    }
+
 
     .katta_img {
         width: 100%;
@@ -392,7 +1284,6 @@ hr {
         height: 200px;
         align-items: center;
     }
-
 
     .text3 {
         width: 100%;
@@ -460,34 +1351,60 @@ hr {
     padding: 0px 0px 100px 0px;
 }
 
-/* ==================bosh ============ */
-.bosh {
-    background: #F3F6F6;
-    padding: 20px 30px;
-    width: 33%;
-    height: 450px;
+@media only screen and (max-width:800px) {
+    .Service {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .Service h1 {
+
+        font-size: 45px;
+        padding: 10px 0px;
+    }
+
+    .Service p {
+
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        color: #666666;
+        font-size: 18px;
+    }
+
 }
 
-.h3 {
-    font-size: 28px;
-    padding: 0px 50px 10px 0px;
-    width: 80%;
+@media only screen and (max-width:600px) {
+    .Service {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .Service h1 {
+        font-size: 42px;
+        padding: 10px 0px;
+    }
+
+    .Service p {
+
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        color: #666666;
+        font-size: 15px;
+    }
 }
 
-.naz {
-    font-size: 28px;
-    padding: 10px 0px 10px 0px;
-    color: #056AC7;
+@media only screen and (max-width:500px) {
+    .Service {
+        padding: 80px 20px;
+        text-align: center;
 
-}
+    }
 
-.dars {
-    padding: 10px 0px 10px 0px;
-    color: #056AC7;
-}
-
-.img1 {
-    padding: 160px 0px 0px 320px;
+    .Service h1 {
+        text-align: center;
+        font-size: 40px;
+        padding: 10px 0px;
+    }
 }
 
 
@@ -520,6 +1437,134 @@ hr {
 
 
 }
+
+/* ==================bosh ============ */
+.bosh {
+    background: #F3F6F6;
+    padding: 20px 30px;
+    width: 33%;
+    height: 450px;
+}
+
+.h3 {
+    font-size: 28px;
+    padding: 0px 50px 10px 0px;
+    width: 80%;
+}
+
+.naz {
+    font-size: 28px;
+    padding: 10px 0px 10px 0px;
+    color: #056AC7;
+
+}
+
+.dars {
+    padding: 10px 0px 10px 0px;
+    color: #056AC7;
+}
+
+.img1 {
+    padding: 160px 0px 0px 320px;
+}
+
+@media only screen and (max-width:1000px) {
+    .katta {
+        width: 100%;
+
+        gap: 20px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .bosh {
+        background: #F3F6F6;
+        padding: 20px 30px;
+        width: 33%;
+        height: 450px;
+    }
+
+    .img1 {
+        padding: 120px 0px 0px 100px;
+        width: 100%;
+    }
+
+    .img1 img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .katta {
+        width: 100%;
+
+        gap: 20px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .bosh {
+        background: #F3F6F6;
+        padding: 20px 30px;
+        width: 33%;
+        height: 390px;
+    }
+
+    .img1 {
+        padding: 70px 0px 0px 70px;
+        width: 100%;
+    }
+
+    .img1 img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .katta {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0px 0px 100px 0px;
+    }
+
+    .bosh {
+
+        background: #F3F6F6;
+        padding: 20px 20px;
+        width: 33%;
+        height: 300px;
+    }
+
+    .h3 {
+        font-size: 13px;
+        padding: 0px 20px 10px 0px;
+        width: 80%;
+    }
+
+    .naz {
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+
+    }
+
+    .dars {
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+    }
+
+    .img1 {
+        padding: 30px 0px 0px 0px;
+        width: 70%;
+    }
+
+    .img1 img {
+        width: 100%;
+    }
+
+}
+
 
 @media only screen and (max-width: 330px) {
 
@@ -584,9 +1629,9 @@ hr {
 }
 
 .nazariy {
-    text-align: center;
-    font-size: 22px;
-    padding: 10px 0px 10px 0px;
+
+    font-size: 25px;
+    padding: 40px 0px 0px 0px;
     color: #056AC7;
 
 }
@@ -599,6 +1644,156 @@ hr {
 .img2 {
     padding: 163px 0px 0px 320px;
 }
+
+
+@media only screen and (max-width:1000px) {
+    .katta {
+        width: 100%;
+
+        gap: 20px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .orta {
+        background: #F3F6F6;
+        padding: 20px 30px;
+        width: 33%;
+        height: 450px;
+    }
+
+    .img2 {
+        padding: 120px 0px 0px 80px;
+        width: 100%;
+    }
+
+    .img2 img {
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .katta {
+        width: 100%;
+
+        gap: 20px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .orta {
+        background: #F3F6F6;
+        padding: 20px 30px;
+        width: 33%;
+        height: 390px;
+    }
+
+    .img2 {
+        padding: 50px 0px 0px 40px;
+        width: 100%;
+    }
+
+    .img2 img {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .katta {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .orta {
+
+        background: #F3F6F6;
+        padding: 20px 20px;
+        width: 33%;
+        height: 300px;
+    }
+
+    .h3_1 {
+        font-size: 13px;
+        padding: 0px 20px 10px 0px;
+        width: 80%;
+    }
+
+    .nazariy {
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+
+    }
+
+    .dars1 {
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+    }
+
+    .img2 {
+        padding: 30px 0px 0px 0px;
+        width: 70%;
+    }
+
+    .img2 img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .katta {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0px 0px 50px 0px;
+    }
+
+    .orta {
+
+        background: #F3F6F6;
+        padding: 20px 20px;
+        width: 33%;
+        height: 300px;
+    }
+
+    .h3_1 {
+        font-size: 13px;
+        padding: 0px 20px 10px 0px;
+        width: 80%;
+    }
+
+    .nazariy {
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+
+    }
+
+    .dars1 {
+        padding: 10px 0px 10px 0px;
+        color: #056AC7;
+    }
+
+    .img2 {
+        padding: 30px 0px 0px 20px;
+        width: 100%;
+    }
+
+    .img2 img {
+        width: 90%;
+    }
+
+}
+
+
 
 
 @media only screen and (max-width: 330px) {
@@ -672,6 +1867,102 @@ hr {
     padding: 163px 0px 0px 320px;
 }
 
+@media only screen and (max-width:1000px) {
+    .katta {
+        width: 100%;
+
+        gap: 20px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .yuqori {
+        background: #F3F6F6;
+        padding: 20px 30px;
+        width: 33%;
+        height: 450px;
+    }
+
+    .img3 {
+        padding: 120px 0px 0px 80px;
+        width: 100%;
+    }
+
+    .img3 img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .katta {
+        width: 100%;
+
+        gap: 20px;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .yuqori {
+        background: #F3F6F6;
+        padding: 20px 30px;
+        width: 33%;
+        height: 390px;
+    }
+
+    .img3 {
+        padding: 70px 0px 0px 50px;
+        width: 100%;
+    }
+
+    .img3 img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .katta {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 0px 0px 100px 0px;
+    }
+
+    .yuqori {
+
+        background: #F3F6F6;
+        padding: 20px 20px;
+        width: 33%;
+        height: 300px;
+    }
+
+    .h3_2 {
+        font-size: 13px;
+        padding: 0px 20px 10px 0px;
+        width: 80%;
+    }
+
+    .nazar {
+        font-size: 20px;
+        padding: 15px 0px 10px 0px;
+        color: #056AC7;
+
+    }
+
+    .dars2 {
+        padding: 18px 0px 10px 0px;
+        color: #056AC7;
+    }
+
+    .img3 {
+        padding: 30px 0px 0px 0px;
+        width: 70%;
+    }
+
+    .img3 img {
+        width: 100%;
+    }
+}
 
 @media only screen and (max-width: 330px) {
     .yuqori {
@@ -763,6 +2054,120 @@ hr {
     color: white;
 }
 
+
+
+@media only screen and (max-width:1000px) {
+    .katta_fon {
+        height: 465px;
+        width: 100%;
+    }
+
+    .rasm3 {
+        width: 50%;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .rasm3 img {
+        width: 100%;
+    }
+
+    .text4 {
+
+        width: 50%;
+        padding: 0px 0px 0px 50px;
+    }
+
+    .text5 {
+        font-size: 18px;
+    }
+
+    .text5_h2 {
+        font-size: 15px;
+        padding: 30px 20px 100px 0px;
+    }
+
+
+    .btn3 {
+        padding: 20px 0px 30px 0px;
+        font-size: 16px;
+    }
+
+    .btn3 button {
+        padding: 15px 30px;
+    }
+
+
+    .togri {
+        padding: 10px 0px 10px 0px;
+        width: 20%;
+    }
+
+    .togri img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .katta_fon {
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .katta_fon {
+        width: 100%;
+        height: 250px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .rasm3 {
+
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+    .rasm3 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text4 {
+        width: 50%;
+
+    }
+
+    .togri {
+
+        padding: 10px 0px 10px 0px;
+    }
+
+    .text5 {
+
+        padding: 10px 0px;
+        color: white;
+    }
+
+    .text5_h2 {
+        font-size: 10px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .btn3 button {
+
+        padding: 10px 20px;
+        font-size: 12px;
+        background: #3360FF;
+        border-radius: 20px;
+        border: none;
+        color: white;
+    }
+
+
+
+}
+
+
 @media only screen and (max-width: 330px) {
     .katta_fon {
 
@@ -823,135 +2228,9 @@ hr {
         border: none;
         color: white;
     }
-
 }
 
 /* ============ faq ============== */
-
-.faq {
-    width: 100%;
-    padding: 100px 20px;
-}
-
-
-.faq1 {
-    width: 100%;
-    display: flex;
-
-}
-
-.faq2 {
-    padding: 20px 0px;
-    width: 30%;
-    color: #020C31;
-    font-size: 28px;
-}
-
-.kursdan {
-    width: 70%;
-}
-
-.kursdan1 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px;
-    align-items: center;
-}
-
-.h4 {
-    font-size: 25px;
-    color: #676D83;
-}
-
-.kursdan3 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0px;
-    align-items: center;
-}
-
-.topaman {
-    color: #020C31;
-
-    font-size: 25px;
-}
-
-.kursdan2 p {
-    padding: 10px 500px 10px 0px;
-    color: #676D83;
-
-}
-
-@media only screen and (max-width: 330px) {
-    .faq {
-        width: 100%;
-        padding: 0px 0px 10px 0px;
-    }
-
-
-    .faq1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .faq2 {
-        padding: 20px 0px;
-        width: 100%;
-        color: #020C31;
-        font-size: 18px;
-    }
-
-    .kursdan {
-        width: 100%;
-    }
-
-    .kursdan1 {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding: 20px 0px;
-        align-items: center;
-    }
-
-    .kursdan1 img {
-        width: 20%;
-    }
-
-    .h4 {
-        font-size: 15px;
-        color: #676D83;
-    }
-
-    .kursdan3 {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-
-        text-align: center;
-    }
-
-    .kursdan3 img {
-        width: 20%;
-
-    }
-
-    .topaman {
-        color: #020C31;
-
-        font-size: 18px;
-    }
-
-    .kursdan2 p {
-        padding: 10px 0px 10px 0px;
-        font-size: 14px;
-        color: #676D83;
-
-    }
-}
 
 /*============ malumot ==========*/
 
@@ -1028,6 +2307,159 @@ hr {
     position: absolute;
     left: 980px;
 }
+
+@media only screen and (max-width:1200px) {
+    .qol {
+        font-size: 29px;
+    }
+
+    .rasm5 {
+        position: absolute;
+        left: 800px;
+        width: 0%;
+        top: 0px;
+    }
+
+}
+
+@media only screen and (max-width:1050px) {
+
+    .malumot {
+        height: 450px;
+    }
+
+    .yozilish {
+        font-size: 20px;
+    }
+
+    .rasm5 {
+        position: absolute;
+        left: 650px;
+        width: 0%;
+        top: 12px;
+    }
+
+
+
+    .bizga {
+        width: 40%;
+        padding: 40px 0px 0px 100px;
+        font-size: 20px;
+        color: #FFFFFF;
+
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .rasm5 {
+        position: absolute;
+        left: 400px;
+        width: 40%;
+        top: 145px;
+
+    }
+
+    .rasm5 img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .rasm5 {
+        position: absolute;
+        left: 200px;
+        width: 40%;
+        top: 255px;
+
+    }
+
+    .rasm5 img {
+        background-image: none;
+    }
+
+    .malumot {
+        width: 100%;
+        background-image: none;
+        background-repeat: round;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px 400px 0px;
+
+    }
+
+    .malum {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+        height: 0px;
+
+
+    }
+
+    .malum1 {
+        width: 100%;
+        height: 250px;
+        padding: 0px 0px 0px 0px;
+        border: 2px solid #666666;
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .qol {
+        font-size: 15px;
+        padding: 10px 0px 0px 0px;
+        color: var(--Text-1, #242825);
+        text-align: center;
+    }
+
+
+    .ism {
+
+        padding: 10px;
+        border: none;
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .tel {
+        width: 80%;
+        padding: 10px;
+        border: none;
+        font-size: 12px;
+    }
+
+    .yozilish1 {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .yozilish {
+        width: 100%;
+        padding: 10px 0px 10px 0px;
+        background-color: var(--Text-1, #242825);
+        color: #FFFFFF;
+        font-size: 14px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .bizga {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+        font-size: 20px;
+        color: #1b0606;
+
+    }
+}
+
 
 @media only screen and (max-width: 330px) {
     .malumot {
@@ -1179,6 +2611,21 @@ hr {
     padding: 0px 0px 0px 20px;
 }
 
+@media only screen and (max-width:1200px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 100px 0px;
+    }
+
+    .tarmoqlar {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 40px 0px 20px 0px;
+    }
+}
 
 @media only screen and (max-width: 330px) {
     .footer {

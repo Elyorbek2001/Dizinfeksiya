@@ -26,6 +26,7 @@ import rasm4 from "./rasm/rasm4.png"
 import locatsia from "./icon/locatsia.png"
 import strelkaqora from "./icon/strelkaqora.png"
 import phone from "./icon/phone.png"
+import Faq from './Faq';
 const Main = () => {
     useEffect(() => {
         AOS.init({ duration: 1000 });
@@ -158,7 +159,7 @@ const Main = () => {
 
             {/*================= Avfzalliklar ============= */}
 
-            <div id="about" className="Avfzalliklar" data-aos="fade-left">
+            <div id="about" className="Avfzalliklar" data-aos="fade-up-right">
 
                 <h1>Avfzalliklarimiz</h1>
                 <hr />
@@ -199,14 +200,14 @@ const Main = () => {
 
             {/* ===================Service ============== */}
 
-            <div id="service" className="Service" data-aos="fade-left">
+            <div id="service" className="Service" data-aos="fade-up-right">
 
                 <h1>Service</h1>
                 <p>Bu darsliklari sizning yuqori daraja olishingizga yordam beradi</p>
 
             </div>
 
-            <div className="katta" data-aos="fade-left">
+            <div className="katta" data-aos="fade-up-right">
 
                 <div className='bosh'>
                     <div className="h3">
@@ -296,7 +297,7 @@ const Main = () => {
 
 
 
-            <div id="faq" className='faq' data-aos="fade-left">
+            <div id="faq" className='faq' data-aos="fade-right">
                 <hr className='hr2' />
 
                 <div className="faq1">
@@ -304,39 +305,7 @@ const Main = () => {
                     <div className="faq2">
                         <h1>FAQ</h1>
                     </div>
-
-
-                    <div className="kursdan">
-
-                        <div className='kursdan1'>
-                            <h4 className='h4'>Kursdan nima topaman</h4>
-                            <img src={kursdan1} alt="" />
-                        </div>
-                        <hr />
-
-                        <div className='kursdan1'>
-                            <h4 className='h4'>Kursdan nima topaman</h4>
-                            <img src={kursdan1} alt="" />
-                        </div>
-                        <hr />
-
-                        <div className='kursdan3'>
-                            <div className="kursdan2">
-                                <div className="topaman">
-                                    <h4>Kursdan nima topaman</h4>
-                                </div>
-
-                                <p>Bu bir nonti kaypiday kapy darsga qatnasha olmasangiz, darsdan so‘ng guruhingizga zoom zapisi tashlab beriladi</p>
-                            </div>
-
-                            <img src={kursdan2} alt="" />
-                        </div>
-                        <hr />
-
-
-
-                    </div>
-
+                    <Faq />
 
                 </div>
 
